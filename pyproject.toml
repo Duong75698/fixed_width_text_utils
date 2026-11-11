@@ -1,0 +1,14 @@
+[project]
+name = "fixed-width-text-utils"
+version = "0.1.0"
+description = "Reads fixed-width text files and converts fields into typed values by column ranges."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
